@@ -1,0 +1,30 @@
+body {
+  font-family: 'Helvetica';
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  display: block;
+}
+
+.cities {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.cities .paris {
+  margin-right: 0px;
+}
+.cities a {
+  text-align: center;
+  margin-right: 20px;
+  text-decoration: none;
+  color: rgb(88, 89, 91);
+}
+.images {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
