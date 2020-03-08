@@ -7,6 +7,7 @@ body {
     width: 700px;
 }
 .title {
+    color: #2a2a2a;
     letter-spacing: -0.5px;
     font-weight: bold;
     font-size: 36px;
@@ -14,6 +15,7 @@ body {
 }
 /* mission */
 .mission {
+    color: #2b2b2b;
     margin-top: 46px;
     margin-bottom: 50px;
 }
@@ -24,19 +26,23 @@ body {
 }
 .mission-explanation {
     font-size: 18px;
+    line-height: 27px;
 }
 /* how */
 .how {
+    color: #2b2b2b;
     margin-bottom: 50px;
 }
 
 /* focus */
 .focus {
+    color: #2b2b2b;
     margin-bottom: 46px;
 }
 
 /* plans */
 .plans {
+    color: #2b2b2b;
     margin-bottom: 53px;
 }
 
@@ -44,31 +50,49 @@ body {
 .members-title {
     margin-bottom: 20px;
 }
-
+.member {
+    display: flex;
+}
+.member:nth-of-type(1) {
+    margin-right: 34px;
+}
+.member:nth-of-type(3) {
+    margin-right: 34px;
+}
 .member > .picture {
     border-radius: 50%;
+    margin-top: 5px;
+}
+.members-row {
+    display: flex;
+    flex-wrap: wrap;
 }
 .member > .inputstr3 {
         border-radius: 6px;
         margin-bottom: 34px;
-        vertical-align: top;
         display: inline-block;
         border: 0px;
         color: #2b2b2b;
         font-size: 14px;
         resize: none;
         line-height: normal;
-        padding: .8em .5em;
+        padding: 10px;
         width: 275px;
         height: 122px;
         background-color: #fbfbfb;
 }
+.member > .picture {
+    margin-right: 7.6px;
+}
 .member-name {
     margin: 0;
     font-weight: 700;
+    font-size: 14px;
 }
 .member-explanation {
     font-weight: normal;
     margin: 0;
     margin-top: 4px;
+    font-size: 14px;
+    line-height: 20px;
 }
